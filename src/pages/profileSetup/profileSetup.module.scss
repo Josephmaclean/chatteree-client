@@ -1,0 +1,17 @@
+
+.profilePhotoLabel {
+    position: absolute;
+    bottom:0;
+    z-index: 9999;
+    left: 50%;
+    width: 180px;
+    margin: 0 auto;
+    display: inline-block;
+
+    .inputfile {
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+}

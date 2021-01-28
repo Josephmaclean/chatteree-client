@@ -1,0 +1,53 @@
+@import './_variables';
+
+// text colors
+.text-yellow {
+    color: $yellow;
+}
+
+.text-white {
+    color: $white;
+}
+
+.text-red {
+    color: $red;
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-blue {
+    color: $blue;
+}
+
+.text-oslo-gray {
+    color: $oslo-gray;
+}
+
+
+// background colors
+
+.bg-yellow {
+    $background-color:$yellow;
+}
+
+.bg-white {
+    background-color:$white;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-black-pearl {
+    background-color: $black_pearl;
+}
+
+.bg-gray {
+    background-color: $gray
+}
+
+.bg-fade {
+    background-color: $fade;
+}

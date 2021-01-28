@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/Gordita Medium.otf');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../../fonts/Gordita Regular.otf');
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../fonts/GraphikMedium.otf');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../fonts/GraphikSemibold.otf');
+    font-weight: semi-bold;
+}
+
+.text-heading {
+    font-family: Graphik;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 46px;
+    /* or 128% */
+    letter-spacing: -0.02em;
+}
+
+.text-body-regular {
+    font-family: Gordita;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.01em;
+}
+
+.text-body-bold {
+    font-family: Gordita;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.01em;
+}
+
+.text-subtext {
+    font-family: Gordita;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: -0.01em;
+}
+
+.text-subtext-medium {
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: -0.01em;
+}
+
+.text-caption  {
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.01em;
+}
